@@ -4,9 +4,9 @@
 # Data 2018/10/31
 
 import jieba
-def word_cut_chinese(origin_text,word_separator):
+def word_cut_chinese(corpus, word_separator):
     word_cut_results = list()
-    for sentence in origin_text:
-        word_cut_results.append(word_separator.join(jieba.cut(sentence)))
+    for document in corpus:
+        word_cut_results.append(word_separator.join(jieba.cut(document)))
     return word_cut_results
 
