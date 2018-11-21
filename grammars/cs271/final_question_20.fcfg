@@ -1,0 +1,24 @@
+% start S
+S[SEM=(?np + ?vp)] -> NP[SEM=?np] VP[SEM=?vp]
+S[SEM=(?s1 + and + ?s2)] -> S[SEM=?s1] 'and' S[SEM=?s2]
+NP[SEM=?n] -> N[SEM=?n]
+NP[SEM=(?d + ?n)] -> D[SEM=?d] N[SEM=?n]
+NP[SEM=(?adj + ?n)] -> ADJ[SEM=?adj] N[SEM=?n]
+NP[SEM=(?d + ?adj + ?n)] -> D[SEM=?d] ADJ[SEM=?adj] N[SEM=?n]
+VP[SEM=(?v + ?np)] -> V[SEM=?v] NP[SEM=?np]
+VP[SEM=?v] -> V[SEM=?v]
+VP[SEM=(?v + ?np + ?np)] -> V[SEM=?v] NP[SEM=?np] NP[SEM=?np]
+N[SEM='fall'] -> 'fall'
+N[SEM='spring'] -> 'spring'
+N[SEM='leaves'] -> 'leaves'
+N[SEM='dog'] -> 'dog'
+N[SEM='cat'] -> 'cat'
+V[SEM='spring'] -> 'spring'
+V[SEM='leaves'] -> 'leaves'
+V[SEM='fall'] -> 'fall'
+V[SEM='left'] -> 'left'
+D[SEM='the'] -> 'the'
+ADJ[SEM='fall'] -> 'fall'
+ADJ[SEM='spring'] -> 'spring'
+ADJ[SEM='purple'] -> 'purple'
+ADJ[SEM='left'] -> 'left'
