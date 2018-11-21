@@ -1,0 +1,53 @@
+[
+	Tree(
+		S[
+			SEM=(SELECT, City FROM city_table, WHERE, , , Country="china")
+		], 
+		[
+			Tree(
+				NP[SEM=(SELECT, City FROM city_table)], 
+				[
+					Tree(
+						Det[SEM='SELECT'], 
+						['What']
+					), 
+					Tree(
+						N[SEM='City FROM city_table'], 
+						['cities']
+					)
+				]
+			), 
+			Tree(
+				VP[SEM=(, , Country="china")],
+				[
+					Tree(
+						IV[SEM=''], 
+						['are']
+					), 
+					Tree(
+						AP[SEM=(, Country="china")], 
+						[
+							Tree(
+								A[SEM=''], 
+								['located']
+							),
+							Tree(
+								PP[SEM=(, Country="china")], 
+								[
+									Tree(
+										P[SEM=''], 
+										['in']
+									), 
+									Tree(
+										NP[SEM='Country="china"'], 
+										['China']
+									)
+								]
+							)
+						]
+					 )
+				]
+			)
+		]
+	)
+ ]
