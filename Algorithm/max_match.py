@@ -40,7 +40,7 @@ jieba_cut_words = seperator.join(jieba.cut(sentence,HMM=False))
 print(jieba_cut_words)
 
 print("\njieba cut result with HMM:")
-jieba_cut_words = seperator.join(jieba.cut(sentence))
+jieba_cut_words = seperator.join(jieba.cut(sentence,HMM=True))
 print(jieba_cut_words)
 
 
