@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="160d981f-80ff-4010-99e6-3b48c3811689" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Algorithm/max_match.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/sqlite_examples.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic/firt_order_logic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacy_examples.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nltk_examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/nltk_examples.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/max_match.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/max_match.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,13 +47,13 @@
         <counts>
           <entry key="dummy" value="47" />
           <entry key="fcfg" value="812" />
-          <entry key="py" value="8468" />
+          <entry key="py" value="8493" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="859" />
-          <entry key="Python" value="8468" />
+          <entry key="Python" value="8493" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -83,10 +77,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Algorithm/max_match.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+            <state relative-caret-position="58">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding>
-                <marker date="1542985479443" expanded="true" signature="223:941" ph="..." />
+                <marker date="1542986285008" expanded="true" signature="209:1055" ph="..." />
               </folding>
             </state>
           </provider>
@@ -743,10 +737,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm/max_match.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+        <state relative-caret-position="58">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding>
-            <marker date="1542985479443" expanded="true" signature="223:941" ph="..." />
+            <marker date="1542986285008" expanded="true" signature="209:1055" ph="..." />
           </folding>
         </state>
       </provider>

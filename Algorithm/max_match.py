@@ -8,7 +8,6 @@ import jieba
 def max_match(sentence, dictionary):
     if ("" == sentence):
         return []
-    word = ""
     word_end = 1
     for i in range(str(sentence).__len__(), 0, -1):
         word_tmp = sentence[0:i]
