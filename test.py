@@ -40,5 +40,11 @@ x=onehot_encoder.transform([[0, 1, 3]])
 print(x)
 print(x.toarray())
 
+sentence = ["我是张晨，我爱自然语言处理"]
+from WordCut import word_cut_chinese
+words = word_cut_chinese(sentence," ")
+print(words)
+
+
 
 
