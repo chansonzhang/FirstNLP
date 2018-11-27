@@ -45,6 +45,37 @@ from WordCut import word_cut_chinese
 words = word_cut_chinese(sentence," ")
 print(words)
 
+from gensim.models import Word2Vec
+from sklearn.tree import DecisionTreeClassifier
+from apps.biangushijin.utils import load_data_set,get_avg_word_vec_for_each_sentence,load_submit_csv
+
+data_set=load_data_set()
+train=data_set.train_data
+test=data_set.test_data
+
+n_total = len(train) + len(test)
+n_train = len(train)
+texts = list(train['text']) + list(test['text'])
+
+y=train['y']
+print(y.ndim)
+print(y.shape)
+y = np.atleast_1d(y)
+y = np.reshape(y, (-1, 1))
+print(y.shape)
+
+proba = [[1,2],
+              [3,4],
+              [0,0]]
+normalizer = np.sum(proba,axis=1)[:, np.newaxis]
+print(normalizer)
+normalizer[normalizer == 0.0] = 1.0
+print(normalizer)
+
+print(test.head(20))
+
+
+
 
 
 
