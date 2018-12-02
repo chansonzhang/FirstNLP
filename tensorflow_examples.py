@@ -63,3 +63,38 @@ with g.device('/gpu:0'):
     result = a+b
 
 
+
+
+a = tf.constant([[1., 2.], [3., 4.]])
+print(a.shape)
+b = tf.constant([[1.], [2.]])
+print(b.shape)
+#c = a + tf.tile(b, [1, 2])
+c = a + b
+print(c.shape)
+
+a = tf.random_uniform([5, 3, 5])
+b = tf.random_uniform([5, 1, 6])
+
+# concat a and b and apply nonlinearity
+tiled_b = tf.tile(b, [1, 3, 1])
+c = tf.concat([a, tiled_b], 2)
+print(c.shape)
+d = tf.layers.dense(c, 10, activation=tf.nn.relu)
+print(d.shape)
+
+pa = tf.layers.dense(a, 10, activation=None)
+pb = tf.layers.dense(b, 10, activation=None)
+print(pa.shape)
+print(pb.shape)
+d = tf.nn.relu(pa + pb)
+print(d.shape)
+
+A = tf.ones(shape=[3,2,5])
+print(A.shape)
+B = tf.ones(shape=[1,2])
+print(B.shape)
+C=A*B[:,:,np.newaxis]
+print(C.shape)
+
+
