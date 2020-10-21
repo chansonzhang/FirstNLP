@@ -1,0 +1,1 @@
+dataset: http://www.manythings.org/anki/
