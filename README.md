@@ -8,3 +8,5 @@ Try NLP with me.
 ## Advanced
 
 - [attention](attention)
+
+- Others
