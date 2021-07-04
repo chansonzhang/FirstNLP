@@ -8,4 +8,7 @@ Try NLP with me.
 ## Advanced
 
 - [attention](attention)
+- [bert](bert)
+
+
 
