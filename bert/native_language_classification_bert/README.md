@@ -1,0 +1,1 @@
+This is an implementation of blog [Step by step implementation of BERT for text categorization task](https://medium.com/analytics-vidhya/step-by-step-implementation-of-bert-for-text-categorization-task-aba80417bd84)
